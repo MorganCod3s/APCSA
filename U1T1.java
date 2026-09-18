@@ -1,4 +1,4 @@
-public class U1L1 {
+public class U1T1 {
     public static void main(String[] args) {
         System.out.println();
         System.out.print("Look");
