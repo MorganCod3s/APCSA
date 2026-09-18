@@ -8,7 +8,7 @@ public class U1T1Freestyle {
         System.out.println(" What's your name?"); 
         System.out.println();
         System.out.println("That's a nice name"); 
-        System.out.println("My favorite color is pink, and I love chocolate and all foods spicy!!");
+        System.out.println("My favorite color is dusty rose, and I love chocolate and all foods spicy!!");
 
         System.out.println("Let's do some math!");
         System.out.println();
