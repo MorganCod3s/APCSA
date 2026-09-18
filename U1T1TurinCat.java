@@ -4,7 +4,7 @@ public class U1T1TurinCat {
         System.out.print("I have a cat.");
     System.out.println();
     System.out.println("His name is Ziggy.");
-// My friend's cats name is also ziggy!!!!! :3
+// My friend's cats name is also ziggy!!!! :3
 
 // Test segments
 System.out.print("Hello");
