@@ -3,7 +3,7 @@ public class U1T2DebugMe {
         int books; // declare variable
         books = 10; // initialize variable
       System.out.print("The number of books is "); 
-      System.out.println("books"); // print value of variable
+      System.out.println(books); // print value of variable
 
     }
 }
