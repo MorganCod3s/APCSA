@@ -1,3 +1,4 @@
+package Unit1;
 // The public class is the same as th ename of the java file.
 // It uses the public access modifier so that the class is visible anywhere in the program. 
 
