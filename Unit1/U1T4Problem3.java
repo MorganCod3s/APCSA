@@ -11,7 +11,7 @@ public class U1T4Problem3 {
         if (digit1 == 0) {
             System.out.println("The reverse of 0" + num + " is: " + digit3 + digit2 + digit1);
         } else {
-        System.out.println("The reverse of " + num + " 82is: " + digit3 + digit2 + digit1);
+        System.out.println("The reverse of " + num + " is: " + digit3 + digit2 + digit1);
         }
         scanner.close();
     }
