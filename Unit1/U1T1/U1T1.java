@@ -1,4 +1,4 @@
-package Unit1;
+package Unit1.U1T1;
 public class U1T1 {
     public static void main(String[] args) {
         System.out.println();
