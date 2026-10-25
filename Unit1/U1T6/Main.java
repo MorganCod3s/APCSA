@@ -1,6 +1,6 @@
 package Unit1.U1T6;
 import java.util.Scanner;
-public class main {
+public class Main {
 public static void main(String[] args) {
     ChatBot StudentGPT = new ChatBot("StudentGPT", 0);
     Scanner myScanner = new Scanner(System.in);
@@ -33,6 +33,7 @@ public static void main(String[] args) {
     
     System.out.println("Enter max number: ");
     int max = myScanner.nextInt();
+    myScanner.nextLine(); 
     int randomYA = StudentGPT.returnRandom(max);
     System.out.println("random number: "+ randomYA);
     
@@ -42,12 +43,15 @@ public static void main(String[] args) {
 
     System.out.println("Enter favorite color: ");
     String yourColor = myScanner.nextLine();
+    System.out.println();
     System.out.println(StudentGPT.favoriteColor(yourColor));
 
     System.out.println("Enter your grade percentage (with no %): ");
     int yourGrade = myScanner.nextInt();
+    myScanner.nextLine(); 
     System.out.println(StudentGPT.Percentage(yourGrade));
-    
+
+
     System.out.println("Enter your favorite teacher: ");
     String teacher1 = myScanner.nextLine();
     System.out.println("Enter your second favorite teacher: ");
@@ -61,7 +65,7 @@ public static void main(String[] args) {
     StudentGPT.teacherRankings(teacher1, teacher2, teacher3, teacher4, teacher5);
 
     String bye = StudentGPT.goodbye();
-    System.out.print(bye);
+    System.out.println(bye);
 
 
  myScanner.close();

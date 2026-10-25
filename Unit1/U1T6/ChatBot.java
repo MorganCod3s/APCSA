@@ -48,7 +48,7 @@ public class ChatBot {
         }
 
     public void favoriteSeason(String yourSeason) {
-         if (yourSeason == "winter"){
+         if ((yourSeason.equals("winter")) || (yourSeason.equals("Winter"))){
             System.out.println("Your favorite season is " + yourSeason + "? Me too!");       
         } else {
             System.out.println("Your favorite season is " + yourSeason + "? Thats cool! My favorite season is winter!");
@@ -62,7 +62,7 @@ public class ChatBot {
         }
     // Morgan's Methods
     public String favoriteColor(String yourColor) {
-        if (yourColor == "red"){
+        if ((yourColor.equals("red")) || (yourColor.equals("Red"))){
         return "Your favorite color is " + yourColor + "? Me too!";   
     } else {
         return "Your favorite color is " + yourColor + "? Thats cool! My favorite color is red!";      
@@ -92,18 +92,16 @@ public class ChatBot {
         return "You have a D+";
     } else if (65 <= yourGrade && yourGrade <= 66){
         return "You have a D";
-    } else if (73 <= yourGrade && yourGrade <= 76){
-        return "You have a C";
-    } else 
+    } else
         return "You have a F-   Go study now.";
      }
 
     public void teacherRankings(String teacher1, String teacher2, String teacher3, String teacher4, String teacher5) {
-        System.out.println("Rank 1:" + teacher1);
-        System.out.println("Rank 2:" + teacher2);
-        System.out.println("Rank 3:" + teacher3);
-        System.out.println("Rank 4:" + teacher4);
-        System.out.println("Rank 5:" + teacher5);
+        System.out.println("Rank 1: " + teacher1);
+        System.out.println("Rank 2: " + teacher2);
+        System.out.println("Rank 3: " + teacher3);
+        System.out.println("Rank 4: " + teacher4);
+        System.out.println("Rank 5: " + teacher5);
     
     
     
