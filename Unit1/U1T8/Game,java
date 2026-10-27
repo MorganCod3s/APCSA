@@ -1,0 +1,13 @@
+public class Game{
+    private String gameName;
+    private int players;
+    private int score;
+
+public Game(String gameName, int players){
+    this.gameName = gameName;
+    this.players = players;
+    score = 0;
+}
+    public String getGameName() {
+        return gameName;
+}
