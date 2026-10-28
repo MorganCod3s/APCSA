@@ -25,7 +25,7 @@ public class U1L9Adder {
         this.increment = increment;
     }
 
-    public U1L9Adder(String name, int increment, int counter) {
+    public U1L9Adder( int increment, String name, int counter) {
         this.name = name;
         this.counter = counter;
         this.increment = increment;
@@ -55,10 +55,6 @@ public class U1L9Adder {
         return num1 + num2;
     }
 
-    public int add(int num2, int num1) {
-        return num1 + num2;
-    }
-
     public int add(double num1, int num2) {
         int casted = (int) (num1 + num2);
         return casted;
@@ -79,7 +75,7 @@ public class U1L9Adder {
     }
 
 
-    public double add(int num1, int num2, double num3) {
+    public double add(int num1, double num2, int num3) {
         return num1 + num2 + num3;
     }
 
