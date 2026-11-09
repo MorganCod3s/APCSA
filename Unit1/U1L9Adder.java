@@ -1,5 +1,4 @@
 package Unit1;
-
 public class U1L9Adder {
      // instance variable
     private String name;
@@ -65,14 +64,14 @@ public class U1L9Adder {
         return casted;
     }
 
-    public int add(double num1, double num2) {
+    /* public int add(double num1, double num2) {
         int casted = (int) (num1 + num2);
         return casted;
     }
 
     public double add(double num1, double num2) {
         return num1 + num2;
-    }
+    } */
 
 
     public double add(int num1, double num2, int num3) {
