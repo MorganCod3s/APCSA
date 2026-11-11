@@ -2,6 +2,7 @@ package Unit1.U1T11;
 public class CustomStringMethodsRunner{
     public static void main(String[] args) {
         CustomStringMethods methods = new CustomStringMethods(); 
+        /*
     boolean bool = methods.longerThan("apple", 4);
 System.out.println(bool);
 bool = methods.longerThan("apple", 5);
@@ -9,11 +10,12 @@ System.out.println(bool);
 bool = methods.longerThan("apple", 2);
 System.out.println(bool);
 bool = methods.longerThan("apple", 7);
+System.out.println(bool); */
+boolean bool = methods.longerThan("mayday", 7);
 System.out.println(bool);
+//System.out.println("");
 
-System.out.println("");
-
-
+/*
 String str2 = methods.funnyString("computer", 3);
 System.out.println(str2);
 str2 = methods.funnyString("computer", 0);
@@ -21,12 +23,13 @@ System.out.println(str2);
 str2 = methods.funnyString("computer", 7);
 System.out.println(str2);
 str2 = methods.funnyString("apples", 1);
+System.out.println(str2); */
+String str2 = methods.funnyString("peace", 4);
 System.out.println(str2);
 
+//System.out.println("");
 
-System.out.println("");
-
-
+/*
 String str = methods.halvesReversed("computer");  //even # of letters
 System.out.println(str);
 str = methods.halvesReversed("computers");        //odd # of letters
@@ -42,10 +45,13 @@ System.out.println(str);
 str = methods.halvesReversed("see you soon");
 System.out.println(str);
 str = methods.halvesReversed("see you later!");
+System.out.println(str); */
+String str = methods.halvesReversed("best");
 System.out.println(str);
 
-System.out.println("");
+//System.out.println("");
 
+/*
 String str3 = methods.pigLatin("computer");
 System.out.println(str3);
 str3 = methods.pigLatin("sky");
@@ -53,10 +59,14 @@ System.out.println(str3);
 str3 = methods.pigLatin("Brooklyn");
 System.out.println(str3);
 str3 = methods.pigLatin("weekend");
+System.out.println(str3); */
+String str3 = methods.pigLatin("continued");
 System.out.println(str3);
 
-System.out.println("");
+//System.out.println("");
 
+
+/*
 String str4 = methods.removeCharacter("Halloween", 5);
 System.out.println(str4);
 str4 = methods.removeCharacter("Halloween", 0);
@@ -82,10 +92,12 @@ System.out.println(str4);
 str4 = methods.removeCharacter("A", 1);
 System.out.println(str4);
 str4 = methods.removeCharacter("A ", 1);
+System.out.println(str4); */
+String str4 = methods.removeCharacter("lift", 3);
 System.out.println(str4);
 
-System.out.println("");
-
+//System.out.println("");
+/*
 String str5 = methods.insertAt("ghost", "BOO!", "o");
 System.out.println(str5);
 str5 = methods.insertAt("ghost", "BOO!", "st");
@@ -111,10 +123,12 @@ System.out.println(str5);
 str5 = methods.insertAt("a", "m", "a");
 System.out.println(str5);
 str5 = methods.insertAt("a", "m", "p");
+System.out.println(str5); */
+String str5 = methods.insertAt("zigbot", "grr", "um");
 System.out.println(str5);
 
-System.out.println("");
-
+//System.out.println("");
+/*
 String str6 = methods.endUp("It's Thursday", 3);
 System.out.println(str6);
 str6 = methods.endUp("hello friend", 3);
@@ -144,10 +158,12 @@ System.out.println(str6);
 str6 = methods.endUp("hello friend", 6);
 System.out.println(str6);
 str6 = methods.endUp("hello friend", 20);
+System.out.println(str6); */
+String str6 = methods.endUp("she said como estas",6);
 System.out.println(str6);
 
-System.out.println("");
-
+//System.out.println("");
+/*
 String str7 = methods.yellOrWhisper("Hello James!");
 System.out.println(str7);
 str7 = methods.yellOrWhisper("hello James!");
@@ -163,8 +179,9 @@ System.out.println(str7);
 str7 = methods.yellOrWhisper("IT'S SUNNY!");
 System.out.println(str7);
 str7 = methods.yellOrWhisper("it's rainy");
+System.out.println(str7); */
+String str7 = methods.yellOrWhisper("plurbian");
 System.out.println(str7);
-
 
     }
 }
