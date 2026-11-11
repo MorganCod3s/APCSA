@@ -16,7 +16,7 @@ public class CustomStringMethods {
              Example:  If myString is apples and maxLength is 6, this method returns false.
       */
   public boolean longerThan(String myString, int maxLength) {
-    return (maxLength > myString.length());
+    return (maxLength < myString.length());
   }
 
   /* Client provides str and idx and method returns a new String created by appending
@@ -26,7 +26,9 @@ public class CustomStringMethods {
              Example:  If str is apples and idx is 0, this method returns the string aapplesa
    */
   public String funnyString(String str, int idx) {
-    
+   String sub = str.substring(idx,idx+1);
+   str = sub + str + sub; 
+   return str;
   }
 
   /**Client provides myString and the method returns a String that represents mystring
@@ -37,7 +39,12 @@ public class CustomStringMethods {
             Example:  If myString is "reverse me!", this method should return "e me!revers"; 
   */
   public String halvesReversed(String myString) {
-  
+    int lenWord1 = myString.length();
+    int ind1 = lenWord1/2;
+String word1half1 = myString.substring(0, ind1);
+String word1half2 = myString.substring(ind1);
+String str = word1half2 + word1half1;
+return str;
   }
 }
 
