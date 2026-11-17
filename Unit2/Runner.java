@@ -1,3 +1,4 @@
+package Unit2;
 import java.util.Scanner;
 
 public class Runner {
@@ -8,25 +9,34 @@ public class Runner {
      System.out.print("Enter a yes-no question and I will answer it: ");
      String question = scan.nextLine();
 
-     int ball = randomIntegerBetween(1, 9);
-     if (ball = 1){
+     int ball = (int)(Math.random()*9)+1;
+     if (ball == 1){
         System.out.println("It is certain");
-     } else if (ball = 2) {
+     } 
+     if (ball == 2) {
         System.out.println("Without a doubt");
-     } else if (ball = 3) {
+     }
+     if (ball == 3) {
         System.out.println("Yes");
-     } else if (ball = 4) {
+     } 
+     if (ball == 4) {
         System.out.println("Ask again later");
-     } else if (ball = 5) {
+     }
+     if (ball == 5) {
         System.out.println("Cannot predict now");
-     } else if (ball = 6) {
+     }
+     if (ball == 6) {
         System.out.println("Concentrate and ask again");
-     } else if (ball = 7) {
+     }
+     if (ball == 7) {
         System.out.println("Don't count on it");
-     } else if (ball = 8) {
+     }
+     if (ball == 8) {
         System.out.println("My reply is no");
-     } else if (ball = 9) {
+     }
+     if (ball == 9) {
         System.out.println("Very doubtful");
      } 
-     
+     scan.close();
+}
 }
