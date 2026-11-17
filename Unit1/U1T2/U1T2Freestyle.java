@@ -1,4 +1,4 @@
-package Unit1;
+package Unit1.U1T2;
 
 public class U1T2Freestyle {
     public static void main(String[] args) {

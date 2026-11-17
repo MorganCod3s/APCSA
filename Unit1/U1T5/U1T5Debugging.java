@@ -1,4 +1,4 @@
-package Unit1;
+package Unit1.U1T5;
 import java.util.Scanner;
 public class U1T5Debugging {
     public static void main(String[] args) {

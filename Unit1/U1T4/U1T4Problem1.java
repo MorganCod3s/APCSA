@@ -1,4 +1,4 @@
-package Unit1;
+package Unit1.U1T4;
 import java.util.Scanner;
 public class U1T4Problem1 {
     public static void main(String[] args) {
