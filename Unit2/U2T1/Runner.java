@@ -1,4 +1,4 @@
-package Unit2;
+package Unit2.U2T1;
 import java.util.Scanner;
 
 public class Runner {
