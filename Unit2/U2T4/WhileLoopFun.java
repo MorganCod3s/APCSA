@@ -18,8 +18,7 @@ public class WhileLoopFun {
 
   int newNum = number;
     while(newNum > 0){
-      newNum %= 10;
-      System.out.println(newNum);
+      System.out.println(newNum%10);
       newNum /= 10;
     }
   }
@@ -34,13 +33,14 @@ public class WhileLoopFun {
   public int countLetter(String word, String letter) {
   int ind = 0;
   int ct = 0;
-    while (word.contains(letter)){
+  int len = word.length();
+  while (ind < len){
     String currLet = word.substring(ind, ind+1);
       if (currLet.equals(letter)){
         ct++;
       }
       ind++;
-  }
+}
   return ct;
   }
 
@@ -66,10 +66,10 @@ public class WhileLoopFun {
            Precondition: number > 0, threshold > 0
      */
   public int maxDoubles(int number, int threshold) {
-  int num = number;
+  int twicenum = number * 2;
   int ct = 0;
-    while(num <= threshold){
-      num *= 2;
+    while(twicenum <= threshold){
+      twicenum *= 2;
       ct++;
   }
   return ct;
